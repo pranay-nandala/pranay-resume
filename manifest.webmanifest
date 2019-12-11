@@ -3,7 +3,7 @@
     "lang": "en",
     "name": "My App",
     "scope": "/",
-    "display": "browser",
+    "display" : "standalone",
     "start_url": "https://lucid-einstein-8d117b.netlify.com/",
     "short_name": "Resume",
     "theme_color": "transparent",
