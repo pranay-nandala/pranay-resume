@@ -1,0 +1,113 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "My App",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://lucid-einstein-8d117b.netlify.com/",
+    "short_name": "Resume",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/7efeacd3-c98e-12bf-91e1-d8a90f63cb7f.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0f61006e-cb73-b345-4bbb-74dd4e5edbb9.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/SplashScreen.scale-200.png.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/12a62959-dfec-694b-48a3-0a011b183f1a.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5783b7cb-0cd7-3012-a6e6-35bf4b5e9231.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/067ed633-7a9c-8e11-4275-71cfa0954cc3.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3f3583d4-4631-bc89-6daa-8ba60550d5ce.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/a3441e08-a563-d4b6-07a3-47f986821315.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/windows10/Wide310x150Logo.scale-200.png.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b5416e5e-a421-36c8-9e9f-d8c0d69010b3.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c7d50d72-1ed1-3227-bdb8-46269e9ecf4d.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/007f69e1-3514-2498-4eda-96da3f41587a.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8be55aa3-d688-f458-394e-3c7960cdef8d.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/316502f0-6842-20d7-8cb9-75ef0c7e16bc.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ios/ios-appicon-1024-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/91382a65-332a-c4a1-2f95-f24ed4d2b776.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9618dc84-a9df-f3e4-05fc-d7012cf8f275.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7c73b5ce-4ddb-58c7-2e21-42c738dca239.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/85700103-1559-3037-ec7d-8504c02575a0.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": []
+}
