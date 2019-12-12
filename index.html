@@ -20,57 +20,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
-  <script type="text/javascript">
-
-  if ("serviceWorker" in navigator) {
-  if (navigator.serviceWorker.controller) {
-    console.log("[PWA Builder] active service worker found, no need to register");
-  } else {
-    // Register the service worker
-    navigator.serviceWorker
-      .register("pwabuilder-sw.js", {
-        scope: "./"
-      })
-      .then(function (reg) {
-        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
-      });
-  }
-}
-    let deferredPrompt = null;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
-  e.preventDefault();
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-});
-
-async function install() {
-  if (deferredPrompt) {
-    deferredPrompt.prompt();
-    console.log(deferredPrompt)
-    deferredPrompt.userChoice.then(function(choiceResult){
-
-      if (choiceResult.outcome === 'accepted') {
-      console.log('Your PWA has been installed');
-    } else {
-      console.log('User chose to not install your PWA');
-    }
-
-    deferredPrompt = null;
-
-    });
-
-
-  }
-}
-  </script>
 </head>
 
 <body id="page-top">
-<button onclick="install()">
-  Install
-</button>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Nandala Pranay</span>
@@ -117,10 +69,10 @@ async function install() {
         </div>
         <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
         <div class="social-icons">
-          <a href="https://www.linkedin.com/in/nandala-pranay/">
+          <a href="https://www.linkedin.com/in/nandala-pranay/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/pranay-nandala">
+          <a href="https://github.com/pranay-nandala" target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -320,7 +272,8 @@ async function install() {
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+  <script src="js/sw-registar.js"></script>
+  <script src="js/app.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/resume.js"></script>
 
